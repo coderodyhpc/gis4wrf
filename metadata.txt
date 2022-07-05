@@ -1,5 +1,5 @@
 [general]
-name=GIS4WRF
+name=ZGIS4WRF
 version=0.14.7
 author=D. Meyer and M. Riechert
 email=gis4wrf@mail.com
