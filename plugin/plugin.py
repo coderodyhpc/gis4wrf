@@ -46,7 +46,7 @@ class QGISPlugin():
            Note: This method is called by QGIS.
         """
         self.init_logging()
-        install_user_error_handler(self.iface)
+###        install_user_error_handler(self.iface)
 
         self.menu = '&' + PLUGIN_NAME
         self.add_action(GIS4WRF_LOGO_PATH, text=PLUGIN_NAME, callback=self.show_dock, add_to_toolbar=True,
